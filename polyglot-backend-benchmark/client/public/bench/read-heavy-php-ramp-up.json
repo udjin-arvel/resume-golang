@@ -1,0 +1,21 @@
+{
+  "scenario": "read-heavy",
+  "backend": "php",
+  "mode": "ramp-up",
+  "rps_target": 20,
+  "rps_actual": 8.9,
+  "latency": {
+    "p50": 52.6,
+    "p95": 78.4,
+    "p99": 84.5
+  },
+  "failed_pct": 0,
+  "runs": 1,
+  "rss_mb": 42.0,
+  "rss_idle_mb": 30.7,
+  "cpu_pct": 7.4,
+  "timestamp": "2026-11-09T11:09:46Z",
+  "image_mb": 60.5,
+  "loc": 320,
+  "cold_start_ms": 700
+}

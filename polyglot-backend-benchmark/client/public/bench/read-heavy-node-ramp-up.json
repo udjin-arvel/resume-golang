@@ -1,0 +1,21 @@
+{
+  "scenario": "read-heavy",
+  "backend": "node",
+  "mode": "ramp-up",
+  "rps_target": 20,
+  "rps_actual": 8.9,
+  "latency": {
+    "p50": 38.8,
+    "p95": 67,
+    "p99": 73.6
+  },
+  "failed_pct": 0,
+  "runs": 1,
+  "rss_mb": 17.4,
+  "rss_idle_mb": 12.0,
+  "cpu_pct": 4.2,
+  "timestamp": "2026-11-09T11:08:36Z",
+  "image_mb": 77.2,
+  "loc": 323,
+  "cold_start_ms": 770
+}

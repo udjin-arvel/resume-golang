@@ -1,0 +1,21 @@
+{
+  "scenario": "aggregate",
+  "backend": "go",
+  "mode": "fixed-rps",
+  "rps_target": 20,
+  "rps_actual": 16.8,
+  "latency": {
+    "p50": 39.5,
+    "p95": 42,
+    "p99": 45.1
+  },
+  "failed_pct": 0,
+  "runs": 1,
+  "rss_mb": 11.6,
+  "rss_idle_mb": 4.9,
+  "cpu_pct": 13.5,
+  "timestamp": "2026-11-09T11:16:01Z",
+  "image_mb": 8.3,
+  "loc": 527,
+  "cold_start_ms": 740
+}

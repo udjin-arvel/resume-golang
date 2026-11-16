@@ -1,0 +1,30 @@
+# Секреты: реальные значения только в локальных .env
+.env
+.env.*
+!.env.example
+
+# Зависимости и сборка
+node_modules/
+dist/
+.output/
+.nitro/
+.wrangler/
+bin/
+*.exe
+*.test
+*.out
+
+# Данные и локальные файлы
+*.db
+*.db-shm
+*.db-wal
+data/
+uploads/
+.project/
+.local/
+.idea/
+.vscode/
+*.swp
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+  "scenario": "aggregate",
+  "backend": "php",
+  "mode": "fixed-rps",
+  "rps_target": 20,
+  "rps_actual": 16.7,
+  "latency": {
+    "p50": 41.6,
+    "p95": 43.7,
+    "p99": 47.4
+  },
+  "failed_pct": 0,
+  "runs": 1,
+  "rss_mb": 42.0,
+  "rss_idle_mb": 30.7,
+  "cpu_pct": 7.4,
+  "timestamp": "2026-11-09T11:17:42Z",
+  "image_mb": 60.5,
+  "loc": 320,
+  "cold_start_ms": 700
+}
